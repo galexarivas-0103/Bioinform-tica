@@ -2,7 +2,7 @@
 
 ## Punto 1: Calidad y Ensamblaje Genómico De Novo
 
-### Análisis de cali
+### Análisis de calidad
 dad inicial de las lecturas
 
 El análisis de calidad se realizó con FastQC en el clúster:
@@ -96,13 +96,7 @@ tblastn -query proteins_query.fasta \
 
 ### Interpretación de resultados
 
-El contig más cercano a las secuencias utilizadas como referencia fue NODE_2323_length_453_cov_2.371859, ya que presentó el mayor bit score (118) y un E-value muy bajo (8.18e-33), lo que indica una similitud altamente significativa. Además, mostró un porcentaje de identidad del 70%, lo que sugiere una buena correspondencia.
-
-También se obtuvo un resultado similar para el contig NODE_3138, con valores de E-value igualmente bajos y un porcentaje de identidad alto (88%), lo que indica que ambos contigs podrían contener regiones homólogas.
-
-En general, los valores de E-value cercanos a cero y los altos bit scores permiten concluir que estos alineamientos son confiables y no se deben al azar, por lo que estos contigs representan los candidatos más cercanos en el genoma analizado.
-
-
+El contig más cercano a la proteína OBP es NODE_3138_length_349_cov_1.095238, ya que presenta el mejor resultado en el BLAST. Tiene un porcentaje de identidad de 88.1%, lo que indica una similitud bastante alta con la proteína, y un E-value de 7.55e-33, que es extremadamente bajo y confirma que el alineamiento es significativo y no se debe al azar. Además, el bit score es alto (172) y no hay gaps, lo que sugiere que el alineamiento es de buena calidad. Sin embargo, la longitud del alineamiento es de solo 59 aminoácidos, por lo que probablemente este contig corresponde solo a una parte del gen y no a la proteína completa.
 
 ## Punto 3: Análisis Poblacional y Gráficas en R
 
