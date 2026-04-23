@@ -48,7 +48,7 @@ quast.py scaffolds.fasta -o quast_results
 
 En general, el ensamblaje no quedó muy continuo, sino bastante fragmentado. El N50 es de 1178 pb, lo que indica que la mitad del genoma está en fragmentos relativamente pequeños. Además, el L50 es de 507 contigs, lo que significa que se necesitan muchos fragmentos para cubrir el 50% del ensamblaje.
 
-El tamaño total ensamblado fue de 3,089,161 pb, pero este valor está distribuido en muchos contigs pequeños. El contig más largo tiene una longitud de 15,601 pb, lo que también refleja que la continuidad del ensamblaje es baja.
+El tamaño total ensamblado fue de 3089161 pb, pero este valor está distribuido en muchos contigs pequeños. El contig más largo tiene una longitud de 15601 pb, lo que también refleja que la continuidad del ensamblaje es baja.
 
 
 
