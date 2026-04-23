@@ -3,7 +3,6 @@
 ## Punto 1: Calidad y Ensamblaje Genómico De Novo
 
 ### Análisis de calidad
-dad inicial de las lecturas
 
 El análisis de calidad se realizó con FastQC en el clúster:
 
