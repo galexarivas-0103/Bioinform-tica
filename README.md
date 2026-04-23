@@ -170,8 +170,7 @@ A partir de las gráficas, se observa que la distribución de los morfos cambia 
 ## Punto 4: Entrega
 
 Se comprimió la carpeta con todos los archivos generados en el clúster:
-zip
-
+[zip](https://drive.google.com/file/d/1H0yIqhxXAs7BLx5WVvu_1SjLucq7hxFf/view?usp=sharing)
 
 ```bash
 zip -r parcial2_gabrielarivas.zip parcial2_gabrielarivas/
