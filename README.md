@@ -16,7 +16,7 @@ fastqc SRR8528336_1.fastq.gz SRR8528336_2.fastq.gz
 <img width="629" height="352" alt="tabla2" src="https://github.com/user-attachments/assets/3af4f5b2-f54f-45ce-8b02-a739fbf04bae" />
 <img width="1148" height="821" alt="calidad2" src="https://github.com/user-attachments/assets/2644c073-7d70-4d14-ac63-a65b6df41319" />
 
-En general, las secuencias de ambos archivos (SRR8528336_1.fastq.gz y SRR8528336_2.fastq.gz) presentan buena calidad. Las lecturas tienen una longitud uniforme de 101 pb y no se observan secuencias clasificadas como de baja calidad. Además, el contenido de GC es de aproximadamente 43%, lo cual es un valor esperado.
+En general, las secuencias de ambos archivos (SRR8528336_1.fastq.gz y SRR8528336_2.fastq.gz) presentan buena calidad. Las lecturas tienen una longitud uniforme de 101 pb y no se observan secuencias clasificadas como de baja calidad. Además, el contenido de GC es de 43%, lo cual es un valor esperado.
 
 Al revisar la calidad por posición, se observa que las lecturas mantienen valores altos en la mayor parte de su longitud, especialmente al inicio y en la región central. Hacia el extremo final (3’) hay una disminución gradual en la calidad, lo cual es típico en secuenciación Illumina. Esta caída es un poco más evidente en el segundo archivo, pero en general la calidad sigue siendo adecuada.
 
